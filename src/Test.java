@@ -11,6 +11,7 @@ public class Test {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
+        System.out.println("uat-01");
         return super.clone();
     }
 }
