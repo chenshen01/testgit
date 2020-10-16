@@ -15,4 +15,9 @@ public class Test {
         System.out.println("add");
         return super.clone();
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
