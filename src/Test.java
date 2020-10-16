@@ -14,4 +14,9 @@ public class Test {
         System.out.println("uat02");
         return super.clone();
     }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
 }
