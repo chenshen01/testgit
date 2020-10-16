@@ -16,4 +16,9 @@ public class Test {
         System.out.println("uat02");
         return super.clone();
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
