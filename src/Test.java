@@ -24,4 +24,9 @@ public class Test {
     private int f(){
         return 0;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
