@@ -26,4 +26,8 @@ public class Test {
     protected void finalize() throws Throwable {
         super.finalize();
     }
+
+    private int f(){
+        return 0;
+    }
 }
