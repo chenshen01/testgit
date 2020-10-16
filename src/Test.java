@@ -27,7 +27,11 @@ public class Test {
         super.finalize();
     }
 
-    private int f(){
+    private int f() {
         return 0;
+    }
+    
+    public int f2(){
+        return 1;
     }
 }
