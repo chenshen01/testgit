@@ -21,4 +21,9 @@ public class Test {
     public int hashCode() {
         return super.hashCode();
     }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
 }
