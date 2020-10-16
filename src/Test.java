@@ -20,4 +20,8 @@ public class Test {
     public int hashCode() {
         return super.hashCode();
     }
+
+    private int f(){
+        return 0;
+    }
 }
