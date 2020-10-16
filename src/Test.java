@@ -31,7 +31,12 @@ public class Test {
         return 0;
     }
     
-    public int f2(){
+    public int f2() {
         return 1;
+    }
+    
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
     }
 }
