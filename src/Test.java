@@ -44,4 +44,16 @@ public class Test {
         return 1;
     }
 
+    
+    /**
+     *
+     *
+     * @param null
+     * @author liuzhixiang 2020-10-16 16:34
+     * @return
+     */
+    public void f4(){
+
+    }
+
 }
