@@ -19,4 +19,8 @@ public class Test {
     protected void finalize() throws Throwable {
         super.finalize();
     }
+
+    public int f2(){
+        return 1;
+    }
 }
