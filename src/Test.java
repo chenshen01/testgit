@@ -13,6 +13,7 @@ public class Test {
     protected Object clone() throws CloneNotSupportedException {
         System.out.println("uat-01");
         System.out.println("add");
+        System.out.println("uat02");
         return super.clone();
     }
 }
