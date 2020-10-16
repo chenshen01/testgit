@@ -39,4 +39,9 @@ public class Test {
     public boolean equals(Object obj) {
         return super.equals(obj);
     }
+
+    public int f3() {
+        return 1;
+    }
+
 }
