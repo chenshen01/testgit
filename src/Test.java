@@ -67,4 +67,7 @@ public class Test {
 
     }
 
+    public void add(){
+        System.out.println("uat_01--添加了add方法");
+    }
 }
