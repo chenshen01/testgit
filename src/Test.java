@@ -74,4 +74,8 @@ public class Test {
    private static void voidFunction(){
        System.out.println("uat_01--添加了voidFunction方法");
    }
+
+    private static void voidFunction1(){
+        System.out.println("uat_01--添加了voidFunction1方法");
+    }
 }
