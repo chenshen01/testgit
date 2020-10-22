@@ -70,8 +70,12 @@ public class Test {
     public void add(){
         System.out.println("uat_01--添加了add方法");
     }
-    
+
     public void add1(){
         System.out.println("uat_02 添加了add方法");
     }
+
+   private static void voidFunction(){
+       System.out.println("uat_01--添加了voidFunction方法");
+   }
 }
