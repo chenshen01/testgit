@@ -23,4 +23,8 @@ public class Test {
     public int f2(){
         return 1;
     }
+
+    public void add(){
+        System.out.println("uat_02 添加了add方法");
+    }
 }
